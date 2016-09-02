@@ -54,8 +54,8 @@
                                 </div>
                                 <div class="media-body pad-hor">
                                     <div class="speech">
-                                        <a href="#" class="media-heading">John Doe</a>
-                                        <p>Hello Lucy, how can I help you today ?</p>
+                                        <a href="#" class="media-heading">Watson</a>
+                                        <p>Hi i'm watson, how can I help you today ?</p>
                                         <p class="speech-time">
                                         <i class="fa fa-clock-o fa-fw"></i>09:23AM
                                         </p>
@@ -171,7 +171,7 @@
                             <input type="text" placeholder="Enter your text" class="form-control chat-input">
                         </div>
                         <div class="col-xs-3">
-                            <button class="btn btn-primary btn-block" type="submit">Send</button>
+                            <button class="btn btn-primary btn-block" id="submit" type="submit">Send</button>
                         </div>
                     </div>
                 </div>
@@ -181,6 +181,7 @@
 </div>
 
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript">
     
 </script>
